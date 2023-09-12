@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab Liberty",
+  "version": "1.0.0",
+  "description": "Peace, love, and browser freedom!",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "32": "/assets/icon32.png",
+    "48": "/assets/icon48.png",
+    "128": "/assets/icon128.png"
+  }
+}
